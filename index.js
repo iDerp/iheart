@@ -66,6 +66,7 @@ async function getById(_station, options) {
  * Gets the raw stream URL of the given Station or Station ID.
  */
 async function streamURL(_station, options) {
+    const corsProxy = getProxyURL(options)
   const { streams } = await getById(_station, options)
   if (!streams) {
     throw new Error('No `streams` given')
