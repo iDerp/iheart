@@ -1,5 +1,5 @@
 # iheart
-### iHeart Radio JavaScript API
+### iHeart Radio JavaScript API - A Working Fork
 
 Query the iHeart Radio API to search for internet radio stations.
 Get their metadata including name and logos, and resolve high-quality
